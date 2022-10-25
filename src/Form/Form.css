@@ -1,0 +1,92 @@
+.form-page{
+    text-align: center;
+    padding-top: 4%;
+    min-width: 500px;
+}
+.form-input{
+    width: 30%;
+    height: 40px;
+    border-radius: 13px 0px 13px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 30px;
+    border: none;
+    outline: none;
+}
+.btn-click{
+    padding-top: 3%;
+    margin-right:30px;
+}
+p{
+    color: red;
+}
+#click-btn{
+width:10%;
+height: 3rem;
+font-size: 1.4rem;
+background-color: #1C0C2A;
+color: #5588A3;
+letter-spacing: 1px;
+font-family: 'josefin Sans',sans-serif;
+padding-top: .3rem;
+border-radius: 5px;
+box-shadow: 0 0 8px #0005;
+}
+.dialog {
+    flex-direction: column;
+    position: fixed;
+    width: 24%;
+    top: 16%; 
+     left: 50%;
+    transform: translate(-50%, -75%);
+    border-radius: 0.3rem;
+    /* padding: 1rem; */
+ z-index: 5; 
+border: 1px solid rgb(177, 176, 176);
+background-color: white;
+
+}
+  
+  .confirmation-text {
+    display: flex;
+    color: black;
+    margin: 0.5rem 0 2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.1rem;
+  }
+  .button-dialog {
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+  }
+  
+  .confirmation-button, delete-button {
+    display: inline-flex;
+    background-color: rgb(74, 74, 197);
+    color: white;
+    /* padding: 0.7rem 1.4rem; */
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+  }
+  .cancel-button {
+    background-color: rgb(74, 74, 197);
+    display: inline-flex;
+    color: white;
+    /* padding: 0.7rem 1.4rem; */
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+  }
+  
+  .confirmation-button:hover {
+    background-color: rgb(74, 74, 197);
+    cursor: pointer;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: rgb(74, 74, 197);
+    cursor: pointer;
+    color: white;
+  }

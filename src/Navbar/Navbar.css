@@ -1,0 +1,12 @@
+.btn-book{
+ text-align: center;
+ min-width: 500px;
+}
+#btn{
+  width: 70%;
+}
+@media (max-width:440px) { 
+  #btn{
+      width: 100%;
+    }
+}
